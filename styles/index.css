@@ -1,0 +1,11 @@
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+}
