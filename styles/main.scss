@@ -1,0 +1,172 @@
+$primary-color: #4A4FF2;
+$text-color: #111111;
+$opacity-text: 0.6;
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.highlight1 {
+    color: $primary-color;
+}
+
+.motto {
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 22px;
+    color: $primary-color;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    &_info {
+        max-width: 635px;
+        margin-left: 125px;
+        margin-bottom: 50px;
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: 700;
+        color: $text-color;
+    }
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: $text-color;
+    opacity: $opacity-text;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+        color: $text-color;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+
+.services-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.services-intro {
+    display: flex;
+    justify-content: space-around;
+
+    p {
+        width: 635px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        color: $text-color;
+    }
+}
+
+.services-list {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        font-size: 18px;
+        line-height: 23px;
+        color: $text-color;
+        opacity: $opacity-text;
+    }
+}
+
+.awards-section {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.award-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .ul-top {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li {
+            margin-left: 20px;
+
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+
+    .logo {
+        height: 20px;
+        display: flex;
+    }
+
+    .right-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .sm_footer_container {
+        display: flex;
+        gap: 10px;
+        margin-left: 20px;
+
+        a img {
+            height: 20px;
+            width: auto;
+        }
+    }
+}
