@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Mulish", sans-serif;
 }
@@ -61,6 +62,7 @@ body {
   font-size: 16px;
   font-weight: 700;
 }
+
 
 .services-div {
   display: flex;
@@ -151,4 +153,4 @@ footer .sm_footer_container {
 footer .sm_footer_container a img {
   height: 20px;
   width: auto;
-}/*# sourceMappingURL=main.css.map */
+}
